@@ -1,5 +1,7 @@
 import React from 'react';
-import { Database, Zap, Lock, Globe, Cpu, BarChart3, ArrowUpRight } from 'lucide-react';
+// Xóa Zap và Globe nếu không dùng
+import { Database, Lock, Cpu, BarChart3, ArrowUpRight } from 'lucide-react';
+
 import { motion } from 'framer-motion';
 
 const features = [
